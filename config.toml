@@ -1,10 +1,8 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://uo258425.github.io/'
 languageCode = 'es-es'
 title = 'Manrique.dev'
 copyright = "© Carlos Manrique Enguita"
 theme = "archie"
-
-# Google Analytics 4
 
 # Code Highlight
 pygmentsstyle = "monokai"
