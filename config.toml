@@ -1,0 +1,63 @@
+baseURL = 'http://example.org/'
+languageCode = 'es-es'
+title = 'Manrique.dev'
+copyright = "© Carlos Manrique Enguita"
+theme = "archie"
+
+# Google Analytics 4
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+	mode="toggle" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Carlos Manrique Enguita -  Software Engineer"
+    favicon = "/favicon.png"  
+    googleAnalyticsID = "G-FEECJHX7WT"
+
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/UO258425"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/carlos-manrique-enguita/"
+
+[[params.social]]
+name = "Mail"
+icon = "mail"
+url = "mailto:cmanriqueenguita@gmail.com"
+
+[[params.social]]
+name = "Mail"
+icon = "mail"
+url = "mailto:UO258425@uniovi.es"
+
+# Menu items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
